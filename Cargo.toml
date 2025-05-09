@@ -1,0 +1,9 @@
+[package]
+name = "blink20"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+kira = "0.10.6"
+notify-rust = { version = "4.11.7", features = ["images"] }
+tokio = { version = "1.45.0", features = ["full"] }
